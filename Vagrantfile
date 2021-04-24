@@ -1,6 +1,4 @@
-## sobre script
-#instalando o mysqlserver versão 5.7 / criação de usuario, banco de dados para aplicação se conectar / duas ultimas linha é para o mysqle receber conexão fora da maquina  
-
+## sobre script // instalando o mysqlserver versão 5.7 / criação de usuario, banco de dados para aplicação se conectar / duas ultimas linha é para o mysqle receber conexão fora da maquina  
 $script_mysql = <<-SCRIPT
   apt-get update && \
   apt-get install -y mysql-server-5.7 && \
